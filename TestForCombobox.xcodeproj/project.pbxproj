@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04469E971AE415D400DE51A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04469E961AE415D400DE51A7 /* main.m */; };
+		04469E9A1AE415D400DE51A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04469E991AE415D400DE51A7 /* AppDelegate.m */; };
+		04469E9D1AE415D400DE51A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04469E9C1AE415D400DE51A7 /* ViewController.m */; };
+		04469EA01AE415D400DE51A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04469E9E1AE415D400DE51A7 /* Main.storyboard */; };
+		04469EA21AE415D400DE51A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04469EA11AE415D400DE51A7 /* Images.xcassets */; };
+		04469EA51AE415D400DE51A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04469EA31AE415D400DE51A7 /* LaunchScreen.xib */; };
+		04469EB11AE415D400DE51A7 /* TestForComboboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04469EB01AE415D400DE51A7 /* TestForComboboxTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04469EAB1AE415D400DE51A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04469E891AE415D400DE51A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04469E901AE415D400DE51A7;
+			remoteInfo = TestForCombobox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04469E911AE415D400DE51A7 /* TestForCombobox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForCombobox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04469E951AE415D400DE51A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04469E961AE415D400DE51A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04469E981AE415D400DE51A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04469E991AE415D400DE51A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04469E9B1AE415D400DE51A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04469E9C1AE415D400DE51A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04469E9F1AE415D400DE51A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04469EA11AE415D400DE51A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04469EA41AE415D400DE51A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04469EAA1AE415D400DE51A7 /* TestForComboboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForComboboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04469EAF1AE415D400DE51A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04469EB01AE415D400DE51A7 /* TestForComboboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForComboboxTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04469E8E1AE415D400DE51A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04469EA71AE415D400DE51A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04469E881AE415D400DE51A7 = {
+			isa = PBXGroup;
+			children = (
+				04469E931AE415D400DE51A7 /* TestForCombobox */,
+				04469EAD1AE415D400DE51A7 /* TestForComboboxTests */,
+				04469E921AE415D400DE51A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04469E921AE415D400DE51A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04469E911AE415D400DE51A7 /* TestForCombobox.app */,
+				04469EAA1AE415D400DE51A7 /* TestForComboboxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04469E931AE415D400DE51A7 /* TestForCombobox */ = {
+			isa = PBXGroup;
+			children = (
+				04469E981AE415D400DE51A7 /* AppDelegate.h */,
+				04469E991AE415D400DE51A7 /* AppDelegate.m */,
+				04469E9B1AE415D400DE51A7 /* ViewController.h */,
+				04469E9C1AE415D400DE51A7 /* ViewController.m */,
+				04469E9E1AE415D400DE51A7 /* Main.storyboard */,
+				04469EA11AE415D400DE51A7 /* Images.xcassets */,
+				04469EA31AE415D400DE51A7 /* LaunchScreen.xib */,
+				04469E941AE415D400DE51A7 /* Supporting Files */,
+			);
+			path = TestForCombobox;
+			sourceTree = "<group>";
+		};
+		04469E941AE415D400DE51A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04469E951AE415D400DE51A7 /* Info.plist */,
+				04469E961AE415D400DE51A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04469EAD1AE415D400DE51A7 /* TestForComboboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				04469EB01AE415D400DE51A7 /* TestForComboboxTests.m */,
+				04469EAE1AE415D400DE51A7 /* Supporting Files */,
+			);
+			path = TestForComboboxTests;
+			sourceTree = "<group>";
+		};
+		04469EAE1AE415D400DE51A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04469EAF1AE415D400DE51A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04469E901AE415D400DE51A7 /* TestForCombobox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04469EB41AE415D400DE51A7 /* Build configuration list for PBXNativeTarget "TestForCombobox" */;
+			buildPhases = (
+				04469E8D1AE415D400DE51A7 /* Sources */,
+				04469E8E1AE415D400DE51A7 /* Frameworks */,
+				04469E8F1AE415D400DE51A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestForCombobox;
+			productName = TestForCombobox;
+			productReference = 04469E911AE415D400DE51A7 /* TestForCombobox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04469EA91AE415D400DE51A7 /* TestForComboboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04469EB71AE415D400DE51A7 /* Build configuration list for PBXNativeTarget "TestForComboboxTests" */;
+			buildPhases = (
+				04469EA61AE415D400DE51A7 /* Sources */,
+				04469EA71AE415D400DE51A7 /* Frameworks */,
+				04469EA81AE415D400DE51A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04469EAC1AE415D400DE51A7 /* PBXTargetDependency */,
+			);
+			name = TestForComboboxTests;
+			productName = TestForComboboxTests;
+			productReference = 04469EAA1AE415D400DE51A7 /* TestForComboboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04469E891AE415D400DE51A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04469E901AE415D400DE51A7 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					04469EA91AE415D400DE51A7 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 04469E901AE415D400DE51A7;
+					};
+				};
+			};
+			buildConfigurationList = 04469E8C1AE415D400DE51A7 /* Build configuration list for PBXProject "TestForCombobox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04469E881AE415D400DE51A7;
+			productRefGroup = 04469E921AE415D400DE51A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04469E901AE415D400DE51A7 /* TestForCombobox */,
+				04469EA91AE415D400DE51A7 /* TestForComboboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04469E8F1AE415D400DE51A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04469EA01AE415D400DE51A7 /* Main.storyboard in Resources */,
+				04469EA51AE415D400DE51A7 /* LaunchScreen.xib in Resources */,
+				04469EA21AE415D400DE51A7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04469EA81AE415D400DE51A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04469E8D1AE415D400DE51A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04469E9D1AE415D400DE51A7 /* ViewController.m in Sources */,
+				04469E9A1AE415D400DE51A7 /* AppDelegate.m in Sources */,
+				04469E971AE415D400DE51A7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04469EA61AE415D400DE51A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04469EB11AE415D400DE51A7 /* TestForComboboxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04469EAC1AE415D400DE51A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04469E901AE415D400DE51A7 /* TestForCombobox */;
+			targetProxy = 04469EAB1AE415D400DE51A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04469E9E1AE415D400DE51A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04469E9F1AE415D400DE51A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04469EA31AE415D400DE51A7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04469EA41AE415D400DE51A7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04469EB21AE415D400DE51A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04469EB31AE415D400DE51A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04469EB51AE415D400DE51A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestForCombobox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04469EB61AE415D400DE51A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestForCombobox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04469EB81AE415D400DE51A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestForComboboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestForCombobox.app/TestForCombobox";
+			};
+			name = Debug;
+		};
+		04469EB91AE415D400DE51A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestForComboboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestForCombobox.app/TestForCombobox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04469E8C1AE415D400DE51A7 /* Build configuration list for PBXProject "TestForCombobox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04469EB21AE415D400DE51A7 /* Debug */,
+				04469EB31AE415D400DE51A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04469EB41AE415D400DE51A7 /* Build configuration list for PBXNativeTarget "TestForCombobox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04469EB51AE415D400DE51A7 /* Debug */,
+				04469EB61AE415D400DE51A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04469EB71AE415D400DE51A7 /* Build configuration list for PBXNativeTarget "TestForComboboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04469EB81AE415D400DE51A7 /* Debug */,
+				04469EB91AE415D400DE51A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04469E891AE415D400DE51A7 /* Project object */;
+}
