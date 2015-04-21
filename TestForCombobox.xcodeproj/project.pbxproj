@@ -14,6 +14,7 @@
 		04469EA21AE415D400DE51A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04469EA11AE415D400DE51A7 /* Images.xcassets */; };
 		04469EA51AE415D400DE51A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04469EA31AE415D400DE51A7 /* LaunchScreen.xib */; };
 		04469EB11AE415D400DE51A7 /* TestForComboboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04469EB01AE415D400DE51A7 /* TestForComboboxTests.m */; };
+		04469EBF1AE4165A00DE51A7 /* CustomComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 04469EBE1AE4165A00DE51A7 /* CustomComboBox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		04469EAA1AE415D400DE51A7 /* TestForComboboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForComboboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04469EAF1AE415D400DE51A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04469EB01AE415D400DE51A7 /* TestForComboboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForComboboxTests.m; sourceTree = "<group>"; };
+		04469EBD1AE4165A00DE51A7 /* CustomComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomComboBox.h; sourceTree = "<group>"; };
+		04469EBE1AE4165A00DE51A7 /* CustomComboBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomComboBox.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				04469EA11AE415D400DE51A7 /* Images.xcassets */,
 				04469EA31AE415D400DE51A7 /* LaunchScreen.xib */,
 				04469E941AE415D400DE51A7 /* Supporting Files */,
+				04469EBD1AE4165A00DE51A7 /* CustomComboBox.h */,
+				04469EBE1AE4165A00DE51A7 /* CustomComboBox.m */,
 			);
 			path = TestForCombobox;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				04469E9D1AE415D400DE51A7 /* ViewController.m in Sources */,
 				04469E9A1AE415D400DE51A7 /* AppDelegate.m in Sources */,
 				04469E971AE415D400DE51A7 /* main.m in Sources */,
+				04469EBF1AE4165A00DE51A7 /* CustomComboBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

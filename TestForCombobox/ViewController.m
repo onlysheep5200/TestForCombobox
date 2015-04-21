@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "CustomComboBox.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet CustomComboBox *combobox;
 
 @end
 
@@ -16,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.combobox.options = @[@"a",@"b",@"c"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
