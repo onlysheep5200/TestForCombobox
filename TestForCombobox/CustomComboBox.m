@@ -40,6 +40,8 @@
         NSLog(@"is animate");
         return;
     }
+    //防止重绘时多画三角形
+    [indicatorLayer removeFromSuperlayer];
     indicatorLayer = [[CAShapeLayer alloc]init];
     UIBezierPath* trianglePath = [[UIBezierPath alloc]init];
     [trianglePath moveToPoint:CGPointMake(0, 0)];
